@@ -1,0 +1,9 @@
+{
+	"name": "Kaldi Dev Container",
+	"image": "docker.io/kaldiasr/kaldi:latest",
+
+	"settings":{
+		"terminal.integrated.inheritEnv": false,
+    	"terminal.integrated.shell.linux": "/bin/bash"
+	}
+}
