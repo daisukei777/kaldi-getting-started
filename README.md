@@ -40,6 +40,22 @@ docker run -it --runtime=nvidia kaldiasr/kaldi:gpu-latest
  ![dev](./images/remote-dev-status-bar.png "dev")
 
 
+コンテナーで動き出した場合はステータスが以下のようになります。
+
+ ![devcontainer](./images/remote-dev-status-bar-2.PNG "devcontainer")
+
+
+
+### YesNoのサンプルを動かしてみる
+Terminalを開いてrun.shを実行するだけで結果が表示されると思います。必要に応じてLocaleなどを設定してください。
+```
+/opt/kaldi/egs/yesno/s5# sh run.sh
+```
+ ![bash](./images/yesno-execution.PNG "bash")
+
+
+
+
 ## References
 ### Official site
 - [Kaldi](http://kaldi-asr.org/)
